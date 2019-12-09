@@ -1,0 +1,28 @@
+{
+  "name": "HTTP_with_net",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avnit77/HTTP_with_net.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "eslint": "^6.7.2",
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.1",
+    "supertest": "^4.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/avnit77/HTTP_with_net/issues"
+  },
+  "homepage": "https://github.com/avnit77/HTTP_with_net#readme"
+}
