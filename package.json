@@ -4,14 +4,19 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "jest --verbose",
+    "test:watch": "npm run test -- --watchAll --coverage",
+    "start:watch": "nodemon",
+    "lint": "eslint '**/*.js'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/avnit77/HTTP_with_net.git"
   },
   "keywords": [],
+  "jest": {
+    "testEnvironment": "node"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
