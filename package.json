@@ -4,9 +4,10 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest --verbose",
-    "test:watch": "npm run test -- --watchAll --coverage",
+    "start": "node",
     "start:watch": "nodemon",
+    "test": "jest --verbose --runInBand",
+    "test:watch": "npm run test -- --watchAll --coverage",
     "lint": "eslint '**/*.js'"
   },
   "repository": {
